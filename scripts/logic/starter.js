@@ -1,28 +1,26 @@
-'use strict';
-console.log('--- loading logic: _');
+// 'use strict';
+// console.log('--- loading logic: _');
 
-// either expect or assert, up to you
-const _ = chai._;
-
+// // either expect or assert, up to you
+// const _ = chai._;
 
 /**
  *
  */
-const _ = () => {
-
+const walkDistance = (axis, length) => {
+  return Math.round((axis / length) * walk - walk / 2);
 };
 
-
-// write only one top-level describe in this file
-describe('_', () => {
-  // write as many nested describes as you would like
-  describe('_', () => {
-    // write as many it's as you want in each describe
-    it('_', () => {
-      // have only one assertion inside each it
-    });
-  });
-});
+// // write only one top-level describe in this file
+// describe('_', () => {
+//   // write as many nested describes as you would like
+//   describe('_', () => {
+//     // write as many it's as you want in each describe
+//     it('_', () => {
+//       // have only one assertion inside each it
+//     });
+//   });
+// });
 
 /* logic functions are pure functions
 

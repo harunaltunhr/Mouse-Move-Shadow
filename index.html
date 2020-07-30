@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <title>Mouse-Move-Shadow</title>
 
-<head>
-  <meta charset='utf8'>
-  <title>Mouse-Move-Shadow</title>
+    <link href="./style.css" rel="stylesheet" />
 
-  <link href="./style.css" rel="stylesheet" />
+    <!-- load the testing dependencies -->
+    <script src="./dependencies/chai.js"></script>
+    <script src="./dependencies/describe-it.js"></script>
 
-  <!-- load the testing dependencies -->
-  <script src='./dependencies/chai.js'></script>
-  <script src='./dependencies/describe-it.js'></script>
+    <!-- load the rest of your files -->
+  </head>
 
-  <!-- load the rest of your files -->
+  <body>
+    <div class="textarea">
+      <h1 contenteditable>Write your text here</h1>
+    </div>
 
+    <script src="./scripts/script-variables.js"></script>
+    <script src="./scripts/handlers/starter.js"></script>
+    <script src="./scripts/listeners/starter.js"></script>
+    <script src="./scripts/logic/starter.js"></script>
 
-</head>
-
-<body>
-  <div class="textarea">
-    <h1 contenteditable>Write your text here</h1>
-  </div>
-
-  <script src='./listeners/starter.js'></script>
-  <!-- Leave this here, it renders the review buttons
+    <!-- Leave this here, it renders the review buttons
       write your code above this script tag  -->
-  <script src='./dependencies/review-buttons.js'></script>
-</body>
-
+    <script src="./dependencies/review-buttons.js"></script>
+  </body>
 </html>

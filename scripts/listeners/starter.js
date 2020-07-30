@@ -1,5 +1,6 @@
-'use strict';
-console.log('--- loading listener: _');
+// 'use strict';
+// console.log('--- loading listener: textarea');
 
-document.getElementById('_')
-  .addEventListener('_', _);
+const textarea = document.querySelector(".textarea");
+const text = textarea.querySelector("h1");
+textarea.addEventListener("mousemove", shadow);
