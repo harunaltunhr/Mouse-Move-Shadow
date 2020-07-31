@@ -26,6 +26,8 @@ function shadow(e) {
   const xWalk = walkDistance(x, width);
   const yWalk = walkDistance(y, height);
 
+  const text = document.querySelector("h1");
+
   text.style.textShadow = `
     ${xWalk}px ${yWalk}px 0 rgba(255,0,255,0.7),
     ${xWalk * -1}px ${yWalk}px 0 rgba(0,255,255,0.7),
