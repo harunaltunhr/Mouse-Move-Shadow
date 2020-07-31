@@ -1,1 +1,1 @@
-let words = ['toad', 'road', 'roam'];
+const walk = 500; // 500px
